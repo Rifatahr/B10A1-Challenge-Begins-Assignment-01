@@ -280,3 +280,83 @@ body{
     font-weight: 700;
 }
 /* My Current Target style Ends here */
+
+
+/* I Need Support Section style starts here */
+.need-support-section{
+    width: 1140px;
+    height: 313px;
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 49px auto;
+}
+.need-support-section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.need-support-section-title h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.need-support-section-title p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+.need-support-section form{
+    max-width: 684px;
+    height: 57px;
+    display: flex;
+    gap: 16px;
+}
+.need-support-section form input{
+    width: 548px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+
+input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.need-support-section button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+
+}
+
+/* I Need Support Section style  Ends here */
